@@ -1,0 +1,29 @@
+<meta charset="UTF-8">
+<script type="text/javascript">
+    let randomNumber = parseInt(Math.random() * 100);
+    let players = 'Игрок1;Игрок2'
+    let numberGuessed = false;
+
+    alert(
+        'Игра: "Угадай число". В ней участвуют 2 игрока, пытаясь по очереди угадать положительное число. ' +
+        'Чтобы выйти из программы введите число -1'
+    )
+    do {
+        for (let player of players.split(';')) {
+            let userInput = +prompt(`${player}, введите положительное число`);
+            if (userInput === -1) {
+                numberGuessed = true;
+                break;
+            } else if (userInput === randomNumber) {
+                alert(`Поздравляем, вы угадали! Загаданное число: ${randomNumber}`);
+                numberGuessed = true;
+                break;
+            } else if (userInput > randomNumber) {
+                alert('Введенное вами число больше загаданного.')
+            } else {
+                alert('Введенное вами число меньше загаданного.')
+            }
+        }
+    } while (!numberGuessed);
+
+</script>

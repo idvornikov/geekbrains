@@ -1,0 +1,14 @@
+<meta charset="UTF-8">
+<script type="text/javascript">
+    let amountMoney = +prompt('Введите сумму вклада');
+    let percentage = +prompt('Введите начисляемый процент') / 100;
+    let years = 5;
+    let calculationMessage= 'Размер вклада в конце каждого года:\n';
+
+    for (let year = 1; year <= years; year++) {
+        amountMoney += amountMoney * percentage;
+        calculationMessage += `${year}: ${amountMoney.toFixed(2)}\n`
+    }
+    alert(calculationMessage)
+
+</script>

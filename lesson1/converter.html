@@ -1,0 +1,12 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+    const dollarExchangeRate = 78;
+    const euroExchangeRate = 91.4;
+
+    let rubles = parseFloat(prompt('Введите количество рублей для конвертации: '));
+    let dollarCount = rubles / dollarExchangeRate;
+    let euroCount = rubles / euroExchangeRate;
+    let message = `${rubles} рублей это ${dollarCount.toFixed(2)}$ или ${euroCount.toFixed(2)} евро`;
+
+    alert(message);
+</script>

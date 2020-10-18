@@ -1,0 +1,24 @@
+<meta charset='UTF-8'>
+<script type='text/javascript'>
+    let riddles = 'Он деревянный, на нем сидят;Освещает планетку земля;Его постоянно не хватает'
+    let answers = 'стул;солнце;время'
+    let counter = 0
+    let correctAnswerCount = 0
+
+    for (let riddle of riddles.split(';')) {
+        let userAnswer = prompt(`Введите ответ на загадку: ${riddle}`).trim().toLocaleLowerCase();
+        if (userAnswer === answers.split(';')[counter]) {
+            alert('Поздравляю, это правильный ответ!');
+            correctAnswerCount++;
+        } else {
+            alert('К сожалению вы не угадали.');
+        }
+        counter++;
+    }
+
+    if (correctAnswerCount === 1) {
+        alert(`Вы отгадали ${correctAnswerCount} загадку`);
+    } else {
+        alert(`Вы отгадали ${correctAnswerCount} загадки`);
+    }
+</script>
