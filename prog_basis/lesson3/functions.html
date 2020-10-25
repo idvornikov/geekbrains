@@ -1,0 +1,43 @@
+<meta charset="UTF-8">
+<script type="text/javascript">
+
+
+    function createArrayLengthN(n) {
+        let array = [];
+        for (let number = 1; number <= n; number++) {
+            array.push(number);
+        }
+        return array;
+    }
+
+    function sum(array) {
+        // b. Написать функцию, которая принимает массив чисел. Результатом работы функции является сумма чисел этого массива.
+        let arraySum = 0;
+        array.forEach(element => arraySum += element);
+        return arraySum;
+    }
+
+    function max(array) {
+        // c. Написать функцию, которая на вход получает массив целых чисел, и в качестве результата возвращает максимальное число.
+        let maxNumber = array[0];
+        array.forEach(element => maxNumber = (element > maxNumber) ? element : maxNumber);
+        return maxNumber;
+    }
+
+    function min(array) {
+        let minNumber = array[0];
+        array.forEach(element => minNumber = (element < minNumber) ? element : minNumber);
+        return minNumber;
+    }
+
+    function getEvenNumbers(array) {
+        let evenNumbers = Array();
+        array.forEach(function (element) {
+            if (element % 2 === 0) {
+                evenNumbers.push(element);
+            }
+        });
+        return evenNumbers;
+    }
+
+</script>

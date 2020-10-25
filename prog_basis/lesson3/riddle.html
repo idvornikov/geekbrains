@@ -1,0 +1,33 @@
+<meta charset='UTF-8'>
+<script type='text/javascript'>
+    // 3. Доработать игру в загадки:
+    //     a. Избавиться в игре в загадки от дублирования кода, используя массивы и функции.
+    //     b. Сделать так, чтобы программа поддерживала несколько правильных ответов на один и тот же вопрос. Все возможные варианты задаются программистом в коде программы.
+    let riddles = ['Он деревянный, на нем сидят', 'Освещает планетку земля', 'Его постоянно не хватает']
+    let answers = [['стул', 'табурет', 'пол'],['солнце', 'светило', 'солнышко'],['время', 'времени']]
+    let counter = 0
+    let correctAnswerCount = 0
+
+    function makeARiddle() {
+        let userAnswer = prompt(`Введите ответ на загадку: ${riddle}`).trim().toLocaleLowerCase();
+        if (userAnswer === answers.split(';')[counter]) {
+            alert('Поздравляю, это правильный ответ!');
+            correctAnswerCount++;
+        } else {
+            alert('К сожалению вы не угадали.');
+        }
+        counter++;
+    }
+
+    for (let i = 0; )
+    riddles.forEach(makeARiddle(riddle))
+    for (let riddle of riddles.split(';')) {
+
+    }
+
+    if (correctAnswerCount === 1) {
+        alert(`Вы отгадали ${correctAnswerCount} загадку`);
+    } else {
+        alert(`Вы отгадали ${correctAnswerCount} загадки`);
+    }
+</script>
