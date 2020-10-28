@@ -1,0 +1,15 @@
+.parent {
+    padding: 20px;
+    background-color: gray;
+}
+.parent:hover .child {
+    background-color: blue;
+}
+
+.menu-list {
+    list-style-type: none;
+}
+
+.menu_li_new:after {
+    content: 'hello menu!';
+}
