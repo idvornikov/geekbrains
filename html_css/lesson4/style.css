@@ -1,15 +1,131 @@
-.parent {
+* {
+    font-family: sans-serif;
+}
+
+.paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+.h1-header {
+    font-size: 64px;
+    color: #1F3F68;
+}
+
+.h2-contact-header {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.h3-header {
+    font-size: 36px;
+    text-align: center;
+}
+
+.h4-header {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+.submit-button {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.input-text {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.header {
+    border: 3px red solid;
     padding: 20px;
-    background-color: gray;
-}
-.parent:hover .child {
-    background-color: blue;
 }
 
-.menu-list {
-    list-style-type: none;
+.menu {
+    border: 3px green solid;
 }
 
-.menu_li_new:after {
-    content: 'hello menu!';
+.content {
+    border: 3px blue solid;
+}
+
+.info {
+    border: 3px lightskyblue solid;
+}
+
+.main {
+    border: 3px red solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px
+}
+
+.main .bottom {
+    border: 3px red solid;
+}
+
+.main .content .info {
+    border: 3px green solid;
+}
+
+.main .content .form {
+    border: 3px lightpink solid;
+}
+
+.main .content .map {
+    border: 3px gray solid;
+}
+
+.info-header {
+    border: 3px black solid;
+}
+
+.info-img {
+    border: 3px mediumpurple solid;
+}
+
+.info-section {
+    border: 3px gray solid;
+}
+
+.cards {
+    border: 3px green solid;
+}
+
+.card {
+    border: 3px deeppink solid;
+}
+
+.footer {
+    border: 3px red solid;
+    padding: 20px
+}
+
+.footer .top {
+    border: 3px lightgray solid;
+}
+
+.footer .top .heading {
+    border: 3px lightpink solid;
+}
+
+.footer .bottom {
+    border: 3px lightgreen solid;
+}
+
+.copyright {
+    border: 3px lightskyblue solid;
 }
