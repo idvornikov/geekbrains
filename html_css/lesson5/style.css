@@ -1,10 +1,123 @@
-.content {
-    display: flex;
-    flex-wrap: wrap;
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
-.block {
-    width: 100px;
-    height: 50px;
-    border: 1px solid #000;
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.header {
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info__text {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+    width: 425px;
+}
+
+.content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 359px;
+}
+
+.submit-button {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.input-text {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+
+.footer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.greeting {
+    width: 495px;
+}
+
+.greeting .h3-header {
+    width: 340px;
+    text-align: left;
+}
+
+.contact-info__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.h1-header {
+    font-size: 64px;
+    color: #1F3F68;
+    width: 510px;
+}
+
+.h2-contact-header {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.h3-header {
+    font-size: 36px;
+    text-align: center;
+}
+
+.h4-header {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+.paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
 }
