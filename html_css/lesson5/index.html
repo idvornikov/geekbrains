@@ -11,62 +11,68 @@
 <body>
 <div class="wrapper">
     <div class="header">
-        <div class="menu">
-            <div class="menu__item"><a href="index.html">Главная</a></div>
-            <div class="menu__item"><a href="contacts.html">Контакты</a></div>
-        </div>
-        <div class="info">
-            <h1 class="h1-header">Lorem ipsum.</h1>
-            <p class='info__text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur at
-                eius est id incidunt inventore ipsam iusto,</p>
+        <div class="container">
+            <ul class="menu">
+                <li class="menu_item"><a href="index.html">Главная</a></li>
+                <li class="menu_item"><a href="contacts.html">Контакты</a></li>
+            </ul>
+            <div class="info">
+                <h1 class="info__header">Lorem ipsum.</h1>
+                <p class='info__text'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur at
+                    eius est id incidunt inventore ipsam iusto,</p>
+            </div>
         </div>
     </div>
 
     <div class="content">
-        <div class="what-we-do">
-            <h3 class='h3-header'>Lorem ipsum.</h3>
-            <div class="cards">
+        <div class="what-we-do container">
+            <h3 class='content__header'>Lorem ipsum.</h3>
+            <div class="card-box">
                 <div class="card">
-                    <h4 class='h4-header'>Lorem ipsum.</h4>
-                    <p class='paragraph'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam amet cum
+                    <h4 class='card__header'>Lorem ipsum.</h4>
+                    <p class='card__paragraph'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam amet
+                        cum
+                        delectus dolore earum.</p>
+                </div>
+                <div class="card">
+                    <h4 class='card__header'>Lorem ipsum.</h4>
+                    <p class='card__paragraph'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam amet
+                        cum
                         delectus dolore earum.</p>
                 </div>
                 <div class="card">
                     <h4 class='h4-header'>Lorem ipsum.</h4>
-                    <p class='paragraph'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam amet cum
-                        delectus dolore earum.</p>
-                </div>
-                <div class="card">
-                    <h4 class='h4-header'>Lorem ipsum.</h4>
-                    <p class='paragraph'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam amet cum
+                    <p class='card__paragraph'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam amet
+                        cum
                         delectus dolore earum.</p>
                 </div>
             </div>
-            <div class="bottom">
-                <h3 class='h3-header'>Lorem ipsum.</h3>
-                <p class='paragraph'>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-            </div>
+        </div>
+        <div class="project container">
+            <h3>Lorem ipsum.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
         </div>
     </div>
 
-    <footer class="footer">
-        <div class="greeting">
-            <h3 class='h3-header'>Lorem ipsum dolor.</h3>
-            <p class='paragraph'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, quaerat.</p>
-        </div>
-        <hr>
-        <div class="contact-info">
-            <ul class="contact-info__list">
-                <li>Lorem ipsum dolor sit amet.</li>
-                <li>+7 999-999-99-99</li>
-                <li>website@example.com</li>
-            </ul>
-
-            <div class="copyright">
-                <p class='paragraph'>&copy; &quot;Все права защищены&quot;</p>
+    <div class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <h3 class='footer-top__header'>Lorem ipsum dolor.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, quaerat.</p>
+            </div>
+            <hr>
+            <div class="footer-bottom">
+                <ul class="footer-list">
+                    <li class="footer-list__item">Lorem ipsum dolor sit amet.</li>
+                    <li class="footer-list__item">+7 999-999-99-99</li>
+                    <li class="footer-list__item">website@example.com</li>
+                </ul>
+                <div class="footer-bottom__copyright">
+                    <p class='card__paragraph'>&copy; &quot;Все права защищены&quot;</p>
+                </div>
             </div>
         </div>
-    </footer>
+    </div>
 </div>
 
 </body>
