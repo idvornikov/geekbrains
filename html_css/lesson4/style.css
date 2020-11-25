@@ -49,7 +49,7 @@
     opacity: 0.4;
 }
 
-.header {
+.top {
     border: 3px red solid;
     padding: 20px;
 }
@@ -62,7 +62,7 @@
     border: 3px blue solid;
 }
 
-.info {
+.top__info {
     border: 3px lightskyblue solid;
 }
 
@@ -77,7 +77,7 @@
     border: 3px red solid;
 }
 
-.main .content .info {
+.main .content .top__info {
     border: 3px green solid;
 }
 
