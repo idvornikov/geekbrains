@@ -13,12 +13,12 @@
     list-style-type: none;
 }
 
-.top {
+.header {
     height: 768px;
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
 }
 
-.top__info {
+.header__info {
     padding-top: 115px;
     flex-grow: 1;
     background-image: url(img/illustration.png);
@@ -26,7 +26,7 @@
     background-position: right center;
 }
 
-.top__header {
+.header__heading {
     font-size: 64px;
     font-style: normal;
     font-weight: 300;
@@ -37,7 +37,7 @@
     color: #1F3F68;
 }
 
-.top__text {
+.header__text {
     padding-top: 32px;
     width: 425px;
 }
@@ -70,7 +70,7 @@
     padding-top: 64px;
 }
 
-.content__header {
+.content__heading {
     font-weight: 300;
     line-height: 46px;
     text-align: center;

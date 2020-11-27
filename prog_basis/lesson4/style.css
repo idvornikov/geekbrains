@@ -10,7 +10,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.top {
+.header {
     min-width: 1300px;
     border-bottom: 1px solid #b5b7ba;
     background-color: #dfdfdf;
@@ -20,7 +20,7 @@ body {
     padding-top: 18px;
 }
 
-.top .selected {
+.header .selected {
     color: #000;
 }
 
@@ -29,7 +29,7 @@ body {
     margin: 0 auto;
 }
 
-.top a {
+.header a {
     color: #4d4d4d;
     font-size: 20px;
     font-weight: 100;
@@ -41,7 +41,7 @@ body {
     padding-right: 40px;
 }
 
-.top span {
+.header span {
     padding: 0 38px;
 }
 

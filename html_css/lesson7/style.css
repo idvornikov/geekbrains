@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 1140px;
 }
 
-.top {
+.header {
     min-height: 768px;
     background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
     padding-top: 32px;
@@ -98,20 +98,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.top__row {
+.header__row {
     display: flex;
     flex-direction: column;
     height: 100%;
 }
 
-.top__info {
+.header__info {
     flex-grow: 1;
     background-image: url(img/illustration.png);
     background-repeat: no-repeat;
     background-position: right center;
 }
 
-.top__header {
+.header__heading {
     font-size: 64px;
     font-style: normal;
     font-weight: 300;
@@ -123,7 +123,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 32px;
 }
 
-.top__text {
+.header__text {
     width: 425px;
     font-size: 16px;
     line-height: 26px;
@@ -153,7 +153,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-bottom: 112px;
 }
 
-.content__header {
+.content__heading {
     font-weight: 300;
     font-size: 36px;
     line-height: 46px;
@@ -382,7 +382,7 @@ hr {
         padding: 0 32px;
     }
 
-    .top__info {
+    .header__info {
         background-size: 48%;
         min-height: 576px;
         background-position: right 175px;
@@ -458,7 +458,7 @@ hr {
         padding: 0 16px;
     }
 
-    .top {
+    .header {
         padding-top: 21px;
         min-height: 376px;
         padding-bottom: 41px;
@@ -468,7 +468,7 @@ hr {
         margin-bottom: 33px;
     }
 
-    .top__info {
+    .header__info {
         text-align: center;
         width: 100%;
         background-image: none;
@@ -478,7 +478,7 @@ hr {
         min-height: auto;
     }
 
-    .top__header {
+    .header__heading {
         text-align: center;
         font-weight: 300;
         font-size: 32px;
@@ -488,7 +488,7 @@ hr {
         margin-bottom: 12px;
     }
 
-    .top__text {
+    .header__text {
         width: 100%;
         margin-bottom: 28px;
         color: #1F3F68;
@@ -505,7 +505,7 @@ hr {
         padding-top: 48px;
     }
 
-    .content__header {
+    .content__heading {
         font-weight: 300;
         font-size: 24px;
         line-height: 28px;
